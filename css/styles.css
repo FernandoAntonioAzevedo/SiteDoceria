@@ -34,7 +34,7 @@ a {
 }
 
 #sidebar a:hover {
-    color: #F4EF5E
+    color: #F4EF5E;
 }
 
 #sidebar li {
@@ -104,7 +104,7 @@ section {
 
 }
 
-#sessao-bemvindo::after, #sessao-bemvindo::after {
+#sessao-bemvindo::after, #sessao-sobre::after {
     content: "";
     display: block;
     clear: both;
@@ -170,7 +170,7 @@ section {
 
 .banner-galeria {
     background-position: center;
-    background-repeat: cover;
+    background-size: cover;
     display: inline-block;
     height: 200px;
 }
@@ -184,4 +184,121 @@ section {
     width: 18.8%;
     margin-left: .5%;
     margin-right: .5%;
+}
+
+#img1 {
+    background-image: url('../img/galeria1.jpg');
+    margin-left: 0;
+}
+
+#img2 {
+    background-image: url('../img/galeria2.jpg');
+}    
+    
+#img3 {
+    background-image: url('../img/galeria3.jpg');
+}
+
+
+#img4 {
+    background-image: url('../img/galeria4.jpg');
+    
+}
+
+#img5 {
+    background-image: url('../img/galeria5.jpg');
+    margin-left: 0;
+}
+
+.doces2-imgs {
+    width: 32,3%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+#img6 {
+    background-image: url('../img/galeria6.jpg');
+    margin-left: 0;
+}
+
+#img7 {
+    background-image: url('../img/galeria7.jpg');
+}    
+    
+#img8 {
+    background-image: url('../img/galeria8.jpg');
+    margin-right: 0;
+}
+
+.doces3-imgs {
+    width: 23,9%;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+#img9 {
+    background-image: url('../img/galeria9.jpg');
+    margin-left: 0;
+}
+
+#img10 {
+    background-image: url('../img/galeria10.jpg');
+}    
+    
+#img11 {
+    background-image: url('../img/galeria11.jpg'); 
+
+}
+
+#img12 {
+    background-image: url('../img/galeria12.jpg');
+    margin-right: 0;
+}
+
+/* contato */
+
+#form-contato {
+    width: 500px;
+}
+
+#form-contato input[type=text], #form-contato input[type=email], #form-contato textarea {
+display: block;
+border: 1px solid #006599;
+padding: 10px;
+margin-bottom: 20px;
+width: 100%;
+font-size: 16px;
+font-family: 'Roboto', sans-serif;
+}
+
+#form-contato input[type=text]:focus, #form-contato input[type=email]:focus, #form-contato textarea:focus {
+    border-color: #2790C6;
+}
+
+#form-contato textarea {
+    height: 150px;
+}
+
+#form-contato ::placeholder {
+    color: #2790C6;
+}
+
+#form-contato input[type=submit] {
+    margin-left: 0;
+    font-size: 16px;
+    width: 180px;
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    padding-top: 150px;
+    color: #006599;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+
 }
